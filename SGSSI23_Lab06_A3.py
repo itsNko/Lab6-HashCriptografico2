@@ -38,4 +38,4 @@ if __name__ == "__main__":
                     proof_of_work_file = file_path
             print(file + '\t' + str(complies) + '\t' + str(hash_zeros))
 
-    print('\nValid Files: ' + str(valid_file_count) + '/' + str(file_count) + '\tRandom_Candidate' + random.choice(valid_files) + '\tBest_Candidate: ' + proof_of_work_file)
+    print('\nValid Files: ' + str(valid_file_count) + '/' + str(file_count) + '\tRandom_Candidate: ' + random.choice(valid_files) + '\tBest_Candidate: ' + proof_of_work_file)
