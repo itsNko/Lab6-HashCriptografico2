@@ -39,7 +39,7 @@ def is_valid_line(input_string):
     last_line = lines[-1]
 
     # Define a regular expression pattern for the required format
-    pattern = r'^[0-9a-f]{8}\t[0-9a-f]{2}\t100$'
+    pattern = r'^[0-9a-f]{8}\t[0-9a-f]{2}\t[0-9]+$'
 
     # Use regex to check if the last line matches the pattern
     if re.match(pattern, last_line):
